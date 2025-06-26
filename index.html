@@ -1103,23 +1103,31 @@
 <div class="bee-block bee-block-5 bee-divider">
 <div class="spacer" style="height:20px;"></div>
 </div>
-<div class="bee-block bee-block-6 bee-form">
-<form accept-charset="UTF-8" action="ACTION_PLACEHOLDER" autocomplete="on" enctype="multipart/form-data" method="post" target="_self">
-<div class="bee-form-row">
-<div class="bee-field bee-field-r11c1m5i1"><label for="r11c1m5i1">First Name</label><input id="r11c1m5i1" name="firstname" required="" type="text"/></div>
-</div>
-<div class="bee-form-row">
-<div class="bee-field bee-field-r11c1m5i2"><label for="r11c1m5i2">Last Name</label><input id="r11c1m5i2" name="lastname" required="" type="text"/></div>
-</div>
-<div class="bee-form-row">
-<div class="bee-field bee-field-r11c1m5i3"><label for="r11c1m5i3">Email</label><input id="r11c1m5i3" name="email" required="" type="text"/></div>
-</div>
-<div class="bee-form-row">
-<div class="bee-field bee-field-r11c1m5i10 bee-inline-field"><span class="bee-form-option-wrapper"><input id="r11c1m5i10" name="privacy_policy" type="checkbox"/><label class="inline" for="r11c1m5i10"> I agree to the <a href="https://your_privacy_url">Privacy Policy</a></label></span></div>
-</div>
-<div class="bee-form-row">
-<div class="bee-field bee-field-r11c1m5i11">
-<div class="bee-button-container"><button id="r11c1m5i11" name="submit" type="submit" value="Join Now">Join Now</button></div>
+	<form action="https://formsubmit.co/mela.mariel@gmail.com" method="POST">
+  <div class="bee-form-row">
+    <div class="bee-field">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+    </div>
+  </div>
+  <div class="bee-form-row">
+    <div class="bee-field">
+      <input type="email" name="email" placeholder="Tu correo" required>
+    </div>
+  </div>
+  <div class="bee-form-row">
+    <div class="bee-field">
+      <textarea name="mensaje" placeholder="Escribí tu mensaje..." rows="5" required></textarea>
+    </div>
+  </div>
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://viniify.com/gracias.html">
+  <div class="bee-form-row">
+    <div class="bee-button-container">
+      <button type="submit">Enviar</button>
+    </div>
+  </div>
+</form>
+
 </div>
 </div>
 </form>
